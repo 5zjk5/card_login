@@ -19,8 +19,8 @@ def login():
     time.sleep(1)
 
     # 提交账号密码
-    driver.find_element_by_xpath('//*[@id="userName"]').send_keys('13532287396')
-    driver.find_element_by_xpath('//*[@id="userPwd"]').send_keys('zjk12345')
+    driver.find_element_by_xpath('//*[@id="userName"]').send_keys('your')
+    driver.find_element_by_xpath('//*[@id="userPwd"]').send_keys('your')
 
     # 点击登录
     driver.find_element_by_xpath('//*[@id="userLoginBtn"]').click()
